@@ -1,0 +1,46 @@
+# Entornos virtuales de Python
+.venv/
+venv/
+ENV/
+env/
+
+# Bytecode y cachés de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.jupyter/
+
+# Archivos temporales, respaldos y registros
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+*.log
+
+# Variables de entorno locales y configuración de editores
+.env
+.env.*
+.vscode/
+.idea/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Notas e instrucciones locales del asistente
+GEMINI.md
